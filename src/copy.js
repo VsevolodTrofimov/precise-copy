@@ -7,7 +7,7 @@
  * @return {Object} part of source, where only listed parts are coped
  */
 function preciseObjectCopy (typeList, source, path) {
-  let newObj = typeList.match(source)
+  let newObj = typeList.match(source).copy(source)
 
   let proto = source
   let clone = newObj
@@ -21,10 +21,7 @@ function preciseObjectCopy (typeList, source, path) {
       clone = clone[key]
     })
 
-    console.log('p', proto[path[i]])
-
-    clone[path[i]] = typeList.match(proto[path[i]])
-    console.log('c', clone[path[i]])
+    clone[path[i]] = typeList.match(proto[path[i]]).copy(proto[path[i]])
   }
 
   return newObj

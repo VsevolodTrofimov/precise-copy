@@ -3,4 +3,4 @@ let dateType = {
   copy: (x) => new Date(x)
 }
 
-module.exports = objectType
+module.exports = dateType
