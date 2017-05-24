@@ -1,4 +1,4 @@
 let mapType = {
   type: Map,
-  copy x => new Map(x)
+  copy: x => new Map(x)
 }
