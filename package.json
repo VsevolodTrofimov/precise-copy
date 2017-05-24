@@ -1,0 +1,29 @@
+{
+  "name": "presise-copy",
+  "version": "0.1.0",
+  "description": "Only copies specified path",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VsevolodTrofimov/presise-copy.git"
+  },
+  "keywords": [
+    "redux",
+    "es6",
+    "object-copy"
+  ],
+  "author": "Vsevold Trofimov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VsevolodTrofimov/presise-copy/issues"
+  },
+  "homepage": "https://github.com/VsevolodTrofimov/presise-copy#readme"
+}
