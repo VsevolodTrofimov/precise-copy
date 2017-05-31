@@ -1,6 +1,6 @@
 {
   "name": "precise-copy",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Only copies specified path, much more performant, than deep copy",
   "main": "index.js",
   "directories": {
