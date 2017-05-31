@@ -1,4 +1,4 @@
-# precise-copy • [![Code Climate](https://codeclimate.com/github/VsevolodTrofimov/precise-copy/badges/gpa.svg)](https://codeclimate.com/github/VsevolodTrofimov/precise-copy)
+# precise-copy • [![Code Climate](https://codeclimate.com/github/VsevolodTrofimov/precise-copy/badges/gpa.svg)](https://codeclimate.com/github/VsevolodTrofimov/precise-copy)[![Build Status](https://travis-ci.org/VsevolodTrofimov/precise-copy.svg?branch=master)](https://travis-ci.org/VsevolodTrofimov/precise-copy)
 
 ## Installation
 ```bash
