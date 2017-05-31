@@ -6,7 +6,7 @@ $ npm install precise-copy --save
 ```
 
 ## Usage
-precise-copy consists of 2 main parts: TypeList which tells how to handle each type and copy function that actullay preforms the precies copy
+precise-copy consists of 2 main parts: TypeList which tells how to handle each type and copy function that actullay performs the precies copy
 
 
 ### TypeList Items
