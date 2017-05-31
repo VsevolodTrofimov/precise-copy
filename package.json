@@ -1,6 +1,6 @@
 {
-  "name": "presise-copy",
-  "version": "0.1.0",
+  "name": "precise-copy",
+  "version": "0.2.1",
   "description": "Only copies specified path",
   "main": "src/copy.js",
   "directories": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VsevolodTrofimov/presise-copy.git"
+    "url": "git+https://github.com/VsevolodTrofimov/precise-copy.git"
   },
   "keywords": [
     "redux",
@@ -27,7 +27,7 @@
   "author": "Vsevold Trofimov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VsevolodTrofimov/presise-copy/issues"
+    "url": "https://github.com/VsevolodTrofimov/precise-copy/issues"
   },
-  "homepage": "https://github.com/VsevolodTrofimov/presise-copy#readme"
+  "homepage": "https://github.com/VsevolodTrofimov/precise-copy#readme"
 }
