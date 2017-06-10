@@ -14,7 +14,7 @@ $ npm install precise-copy --save
 ```
 
 ## Usage
-precise-copy consists of 2 main parts: TypeList which tells how to handle each type and copy function that actullay performs the precies copy
+precise-copy consists of 2 main parts: TypeList which tells it how to handle each type and copy function that actullay performs the precise copy
 
 
 ### TypeList Items
@@ -52,7 +52,7 @@ let setType = require('precise-copy/typeLib/set')
 
 myTypeList.add(setType)
 
-//it is recommended to rearrange TypeList in this case to insure that element would not be matched with no parent type are before it's children
+//it is recommended to rearrange TypeList in this case to insure that element would not be matched with some parent type before it's children
 myTypeList.arrange()
 ```
 
