@@ -1,8 +1,9 @@
 # precise-copy • [![Code Climate](https://codeclimate.com/github/VsevolodTrofimov/precise-copy/badges/gpa.svg)](https://codeclimate.com/github/VsevolodTrofimov/precise-copy) [![Build Status](https://travis-ci.org/VsevolodTrofimov/precise-copy.svg?branch=master)](https://travis-ci.org/VsevolodTrofimov/precise-copy)
 
-precise-copy is a tiny library that would only shallow copy the keys specified passing all others by reference. It can be used in pure functions that are operating big objects(like [redux reducers](http://redux.js.org/docs/basics/Reducers.html)).
+precise-copy is a tiny library that would only shallow copy values of specified keys keeping all others by reference(which is very preformant compared to deep copy). It can be used in pure functions that are operating big objects(like [redux reducers](http://redux.js.org/docs/basics/Reducers.html)).
 
 In this example only values of the highlighted keys would be copied(shallowly)
+
 *last line is example precise-copy call*
 
 ![Example](https://raw.githubusercontent.com/VsevolodTrofimov/precise-copy/master/readme.gif)
